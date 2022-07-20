@@ -1,0 +1,322 @@
+/* =============================== Core ============================================= */
+body {
+    font-family: 'Golos', sans-serif;
+    max-width: 1920px;
+    background-color: #0a121f;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    src:url("Font/Golos-Text_DemiBold.ttf");
+    font-family: 'Golos';
+}
+
+[class*="__container"] {
+    max-width: 1145px; /*  1333 */
+    margin: 0 auto;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #3A68B8;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+/* ================================================================================= */
+
+/* ===========================  Header  =========================================== */
+
+.header__container {
+    display: flex;
+    padding-top: 39px;
+    align-items: center;
+}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    padding-right: 40px;
+    margin: 0;
+    line-height: 26px;
+}
+
+.button__header {
+    background-color: #3A68B8;
+    border-radius: 5px;
+    width: 112px;
+    height: 52px;
+    padding: 15px 30px;
+}
+
+.header__title {
+    color: #3A68B8;
+    align-items: center;
+    padding: 0 83px 0 20px;
+    font-size: 22px;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* ================================================================================ */
+
+/* =========================== Section =========================================== */
+
+.get-started__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-started__content {
+    flex: 0 1 50%;
+}
+
+.text {
+    color: #3A68B8;
+    font-size: 18px;
+}
+
+.block-title {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family:'Golos', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.get-started__block-text {
+    padding-top: 160px;
+}
+
+.block-paragrap {
+    padding-top: 0;
+    color: #FFFFFF;
+}
+
+.get-started__button {
+    margin-top: 50px;
+}
+
+.get-start__button {
+    margin-right: 20px;
+
+}
+
+.section__img {
+    flex: 0 1 50%;
+}
+
+.section__img img {
+    margin-top: 50px;
+    margin-right: 183px;
+    margin-left: 114px;
+    height: 600px;
+    width: 550px;
+    z-index: -10;
+    max-width: 100%;
+
+}
+
+/* -------------------------------- Partners ----------------------------------- */
+
+.get-started__partners {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.partners__item {
+    display: flex;
+}
+
+.partner__link {
+    margin-right: 70px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ----------------------------- Section 2 ------------------------------------ */
+
+.deeplearning__container {
+    display: flex;
+    /*align-items: center; */
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.deeplearning__content {
+    flex: 0 1 50%;
+    margin-top: 150px;
+}
+
+.section2__img {
+    flex: 0 1 50%;
+}
+
+.deeplearning__block-text {
+    margin-left: 65px;
+}
+
+.block2-title {
+    padding-bottom: 30px;
+}
+
+.block2-paragrap {
+    margin-bottom: 50px;
+}
+
+.section2__img img {
+    height: 600px;
+    width: 550px;
+    z-index: -10;
+    max-width: 100%;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* ---------------------- Section 3 ------------------------------------------- */
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+}
+
+.experience__containers {
+    max-width: 1920px;
+}
+
+.experience__content {
+    width: 324px;
+    height: 389px;
+    background-color: #0c2e62;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.experience__contentsuper {
+    color: #FFFFFF;
+}
+
+.expo__title {
+    padding: 0 30px 30px 30px;
+    margin: 0 0 0 0;
+}
+
+.expo__paragrap {
+    padding: 0 30px;
+    margin: 0 0 0 0;
+}
+
+.experience__logo {
+    padding: 30px 132px;
+    margin: 0 0 0 0;
+}
+
+.experience__logo1 {
+    padding: 50px 132px;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* --------------------------------- Section 4 -------------------------------- */
+
+.client__about {
+    display: flex;
+    margin-top: 230px;
+    align-items: center;
+}
+
+.client__content {
+    color: #FFFFFF;
+}
+
+.client__title {
+    font-size: 40px;
+    font-family: 'Golos',sans-serif;
+    font-weight: 800;
+}
+
+.client__images img {
+    height: 600px;
+    width: 550px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ============================================================================ */
+
+/* ============================= Footer ======================================= */
+
+.footer {
+    height: 508px;
+    display: flex;
+    align-items: center;
+    background-color: #010f26;
+
+}
+
+.footer__container {
+    color: #FFFFFF;
+    display: flex;
+
+
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.menu {
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.foot {
+    padding-right: 5px;
+}
+
+.footer__paragrap {
+    font-size: 14px;
+}
+
+.footer_item {
+    padding-bottom: 18px;
+}
+
+.footer_title {
+    padding-left: 35px;
+}
+
+.footer__item {
+    display: flex;
+
+}
+
+.footer__link {
+    padding-right: 25px;
+}
+/* ============================================================================ */
