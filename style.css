@@ -1,7 +1,7 @@
 /* =============================== Core ============================================= */
 body {
     font-family: 'Golos', sans-serif;
-    max-width: 1920px;
+    max-width: 100%;
     background-color: #0a121f;
     padding: 0;
     margin: 0;
